@@ -895,6 +895,12 @@ height: 100%;
     margin-bottom: 72px;
 }
 
+/* team mobile */
+
+.team-item{
+    width: 264px;
+}
+
 /* portfolio mobile */
 
 .portfolio-title-list{
@@ -1306,7 +1312,7 @@ max-width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
     
-    gap: 80px;
+    gap: 0;
 }
 .page-footer{
     padding: 100px 0;
@@ -1320,9 +1326,12 @@ max-width: 1440px;
 }
 
 .logo-footer{
-  margin-right: 50px;
+  margin-right: 120px;
 }
 
+.social-footer{
+    margin-right: 80px;
+}
 
 .modal {
     padding: 72px 24px 24px 24px;
