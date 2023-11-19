@@ -1233,7 +1233,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 
 /* hero descktop */
 .hero {
-    min-width: 1158px;
+max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop-1/people-office.jpg');
@@ -1319,6 +1319,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
     margin-bottom: auto;
 }
 
+.logo-footer{
+  margin-right: 50px;
+}
 
 
 .modal {
